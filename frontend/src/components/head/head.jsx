@@ -7,9 +7,10 @@ function Head () {
     
     <div id= "preDivHead">
     <div id = "divHead">  
-        <img  id= "imgHead"  src="https://www.itau.com.br/content/dam/itau/varejo/logo-itau-varejo-desktop.png"/>
 
         <container id= "titleHead">
+        <img  id= "imgHead"  src="https://www.itau.com.br/content/dam/itau/varejo/logo-itau-varejo-desktop.png"/>
+
             <header id = "titulo" >Portal de Contextualização</header>    
         </container>
     </div>       

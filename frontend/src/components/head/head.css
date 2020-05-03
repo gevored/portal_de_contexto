@@ -14,9 +14,10 @@
 #titleHead{
     display: flex;
     justify-content: left;
+    width: 1500px;
     align-items:center;
     margin:0  auto;
-    width: 1500px;
+   
     text-align: center;    
     
 }

@@ -20,16 +20,11 @@ body {
     padding:0.5%;
     }
 
-#divMenuVertical{
-	padding-top: 10px;
-	display:flex;
-}
 
 nav {
 	margin-left: 0 ;
 	max-width: 300px;
-	background-color: #797979; 
-	box-shadow:0 3px 15px rgba(0,0,0,.15);
+	
 }
 
 nav::after {
@@ -39,16 +34,18 @@ nav::after {
 }
 
 nav ul {
+	background-color: #797979; 
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
     display:flex;
     flex-direction: column;
 	padding: 0;
 	margin: 0;
-    list-style: none;
+	list-style: none;
 }
 
 nav ul li {
 	float: left;
-    position: relative;
+	position: relative;	
 }
 
 nav ul li a {  
@@ -91,4 +88,25 @@ nav ul li ul li a:hover,
 nav ul li ul li a:focus {
 	background: #eee;
 	color: #111;
+}
+
+#divMenuCorpo{
+	display: flex;
+	justify-content: left;
+	
+
+    width: 1500px;
+	align-items:center;
+	margin:0  auto;
+}
+
+
+#divMenuVertical{
+	padding-top: 10px;	
+	align-self:flex-start;
+}
+
+#divConteudo{
+	width: 800px;
+	padding:20px;
 }

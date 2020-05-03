@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './menuVertical.css'
 import { BrowserRouter, Route, Switch,Link } from "react-router-dom";
 import Routes from '../../routes.js'
@@ -11,8 +11,10 @@ function MenuVertical(){
     e.preventDefault();
    }
     return(
-        <div id= "divMenuVertical">
+        <div id="divMenuCorpo">
         <BrowserRouter>
+        <div id= "divMenuVertical">
+        
         <nav class="nav">
            
             <ul>
@@ -23,11 +25,15 @@ function MenuVertical(){
 
             </ul>
             
-        </nav>
-
-        <Routes/>
+        </nav>   
+    
+        </div>
+        
+        <div id= "divConteudo">
+            <Routes/>
+        </div>
+        
         </BrowserRouter>
-
         </div>
         
     )
