@@ -1,23 +1,12 @@
-#formCadastroContexto{
-     width: 80%;
-    border: 0.5rem outset red;
-    padding:10px
-    
+.flexHorizontal{
+    display: flex;
+    padding-top: 20px;
 }
 
-.flexDivVertical{
-    display:flex;
+.flexVertical{
+    display: flex;
     flex-direction: column;
-
-    align-self:flex-start;
+    padding-top: 20px;
 }
 
-.flexDivHorizontal{
-    display:flex;
-    flex-direction: row;
 
-}
-
-.form-control{
-    display: inline-flex;
-}
