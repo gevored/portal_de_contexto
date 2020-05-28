@@ -121,7 +121,9 @@ class CadastroContexto extends React.Component {
                         <option value="DEFAULT">Selecione um produto</option>
                     </select>
             </div>
-
+            <div>
+           
+            </div>
             <div className = "classButon">            
                 <input  type="submit" value="Cadastrar" />
             </div>
